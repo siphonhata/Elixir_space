@@ -23,7 +23,7 @@ config :users_api, UsersApiWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "FkbPjrI9GQAQR777YQslNBw/N8mAvJPHuoRdHE1UM92ONVy8UcMO0+T0po+RoWG9",
+  secret_key_base: "NT+VO6delqZ6vi3gwxNlHKuUNCYaa+frz0M6hB5fxo5A7FcBY78lk5qvhXISJ0NN",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}

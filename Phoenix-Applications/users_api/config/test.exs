@@ -17,7 +17,7 @@ config :users_api, UsersApi.Repo,
 # you can enable the server option below.
 config :users_api, UsersApiWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "2cXBS+9MXHbG4nwAWvBBBSm40vQTwEfcVaeJyublU9NapNMdbKRYlOBuSGIOSNY1",
+  secret_key_base: "IFeiSfrBxSEGXl+m2PWubMNw98NPPv6REhWSCCV4ZhxfiWzkXPrwRiyls7nL/SGB",
   server: false
 
 # In test we don't send emails.
